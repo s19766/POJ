@@ -1,0 +1,29 @@
+public class trojkat {
+    
+    static double getPole(int a, int b, int c) {
+        double p; // polowa obwodu
+        p = (a + b + c)/2;
+        double pole;
+        pole = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+        return pole;
+    }
+    
+    static int getObwod(int a, int b, int c) {
+        int obwod = a + b + c;
+        return obwod; //obwod prostokata
+    }
+    
+    rownoboczny
+    rownoramienny
+    roznoboczny
+    
+    public static void main(String args[]) {
+        int a = 4; //dlugosc bokow
+        int b = 6; //dlugosc bokow
+        int c = 7; //dlugosc bokow
+        
+        System.out.println("Pole trojkata o dl. bokow a, b, c rowna sie = " + getPole(a, b, c));
+        System.out.println("Obwod trojkata o dl. bokow a, b, c rowna sie = " + getObwod(a, b, c));
+    }
+    
+}
