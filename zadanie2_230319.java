@@ -1,17 +1,30 @@
+//Damian Brzoskowski, Damian Eggert
+
+
+/*
+2. Utwórz klasę reprezentującą prostokąt, musi posiadać atrybuty długość i szerokość.
+Klasa powinna posiadać metody obliczające pole, obwód i długość przekątnej.
+*/
+
+
 public class prostokat {
+
     static int getPole(int x, int y) {
         int pole=x*y;
         return pole; //pole prostokata
     }
+    
     static int getObwod(int x, int y) {
         int obwod=(2*x)+(2*y);
         return obwod; //obwod prostokata
     }
+    
     static double getPrzekatna(int x, int y) {
         double d = Math.pow(x,2)+Math.pow(y,2); //dlugosc przekatnej prostokata
         double sqrt = Math.sqrt(d);
         return sqrt;
     }
+    
     
     public static void main(String args[]) {
         int x = 5; //dlugosc
