@@ -1,3 +1,13 @@
+//Damian Brzoskowski, Damian Eggert
+
+
+/*
+3. Stwórz klasę reprezentującą trójkąt, który musi posiadać atrybuty określające
+długości boków. Klasa powinna posiadać metody: obliczające pole,
+obwód, isEquilateral, isIsosceles, or isScalene.
+*/
+
+
 public class Trojkat {
     
     private int a, b, c;
