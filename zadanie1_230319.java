@@ -47,4 +47,4 @@ public class CezarHash
         CezarHash ExampleName = new CezarHash("Damian", "Best");
         System.out.println(ExampleName.toString());
     } 
-} 
+}
