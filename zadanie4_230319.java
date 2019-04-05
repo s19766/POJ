@@ -1,18 +1,20 @@
 // Praca w parach: Damian Brzoskowski, Damian Eggert
 
 
-// Class Declaration 
+/*
+4.Zaimplementuj klasę do szyfrowania za pomocą szyfru Cezara. Zaszyfruj swoje imię i nazwisko.
+*/
 
-public class CezarHash
-{ 
+
+// Class Declaration 
+public class CezarHash { 
+    
     // Instance Variables 
     String imie;
     String nazwisko;
   
     // Constructor Declaration of Class 
-    public CezarHash(
-        String imie, String nazwisko) 
-    { 
+    public CezarHash (String imie, String nazwisko) { 
         this.imie = imie; 
         this.nazwisko = nazwisko;
     } 
@@ -37,13 +39,11 @@ public class CezarHash
         
   
     @Override
-    public String toString() 
-    { 
+    public String toString() { 
         return("Po zmianie: " + this.hash_method());
     } 
   
-    public static void main(String[] args) 
-    { 
+    public static void main(String[] args) { 
         CezarHash ExampleName = new CezarHash("Damian", "Best");
         System.out.println(ExampleName.toString());
     } 
