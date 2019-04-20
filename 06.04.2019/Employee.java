@@ -1,4 +1,9 @@
-import java.util.*;
+// Praca w parach: Łukasz Rachwał, Damian Eggert
+
+/*
+1.4  Ex: The Employee Class
+Source: http://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html
+*/
 
 public class Employee {
 
