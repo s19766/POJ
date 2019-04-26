@@ -64,21 +64,15 @@ public class Time {
     
     public static void main(String[] args) {
         Time time = new Time(10, 12,15);
-
         System.out.println(time.getHour());
         System.out.println(time.getMinute());
         System.out.println(time.getSecond());
-
         time.setHour(15);
         time.setMinute(15);
         time.setSecond(15);
-
         System.out.println(time);
-
         time.setTime(20, 20, 20);
-
         System.out.println(time);
-
         System.out.println(time.nextSecond());
         System.out.println(time.previousSecond());
     }
