@@ -25,8 +25,8 @@ public class Point3D extends  Point2D {
     }
 
     public float[] getXYZ(){
-        float[] array = {getX(), getY(), getZ()};
-        return array;
+        float[] values = {getX(), getY(), getZ()};
+        return values;
     }
 
     @Override
