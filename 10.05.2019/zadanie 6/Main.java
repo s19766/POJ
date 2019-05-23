@@ -4,7 +4,7 @@
 DESIGN CHEMICAL ELEMENTS
 Source: http://www.home.hs-karlsruhe.de/~pach0003/informatik_1/aufgaben/en/objects.html
 */
-public class MainClass {
+public class Main {
 
     public static void main(String[] args){
         ChemicalElement chemicalElement = new ChemicalElement("Hydrogenium","H",3);
