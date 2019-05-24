@@ -1,3 +1,10 @@
+// Praca: Damian Eggert
+
+/*
+4.2  Ex: Superclass Person and its subclasses
+Source: http://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html
+*/
+
 public class Main {
     public static void main(String[] args) {
         Person person = new Person("Damian", "Gdansk");
