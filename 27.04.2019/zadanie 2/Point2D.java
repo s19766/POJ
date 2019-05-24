@@ -1,3 +1,10 @@
+// Praca: Damian Eggert
+
+/*
+4.3  Ex: Point2D and Point3D
+Source: http://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html
+*/
+
 public class Point2D {
 
     private float x = 0.0f;
