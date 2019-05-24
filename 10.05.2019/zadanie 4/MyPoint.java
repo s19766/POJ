@@ -1,3 +1,9 @@
+// Praca w parach: Adrian Szostak, Damian Eggert
+
+/*
+2.6  Ex: The MyRectangle and MyPoint Classes
+Source: http://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html#zz-2.6
+*/
 public class MyPoint {
 
     private int x = 0;
