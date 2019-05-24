@@ -1,5 +1,5 @@
 /*
-POJ, lab5, zadanie 1
+POJ, lab5, zadanie 2
 Adrian Szostak, s19777
 Damian Eggert, s19766
 */
