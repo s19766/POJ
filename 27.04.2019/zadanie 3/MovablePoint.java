@@ -1,3 +1,9 @@
+// Praca: Damian Eggert
+
+/*
+4.4  Ex: Point and MovablePoint
+Source: http://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html
+*/
 public class MovablePoint {
 
     private float xSpeed = 0.0f;
