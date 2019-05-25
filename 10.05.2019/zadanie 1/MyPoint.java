@@ -3,12 +3,9 @@ POJ, lab5, zadanie 1
 Adrian Szostak, s19777
 Damian Eggert, s19766
 */
-import static java.lang.Math.pow;
-import static java.lang.StrictMath.sqrt;
-
 public class MyPoint {
 
-    protected int x, y;
+    private int x, y;
 
     public MyPoint() {
         this.x = 0;
@@ -81,36 +78,6 @@ public class MyPoint {
                     +p1.distance(0, 0, tabOfX[i], tabOfY[i]));
 
         }
-        MyCircle c1 = new MyCircle();
-        System.out.println(c1);
-        MyCircle c2 = new MyCircle(1, 2, 3);
-        System.out.println(c2);
-        MyCircle c3 = new MyCircle(new MyPoint(4, 5), 6);
-        System.out.println(c3);
-
-
-        c1.setCenter(new MyPoint(11, 12));
-        c1.setRadius(13);
-        System.out.println(c1);
-        System.out.println("center is: " + c1.getCenter());
-        System.out.println("radius is: " + c1.getRadius());
-
-        c1.setCenterX(21);
-        c1.setCenterY(22);
-        System.out.println(c1);
-        System.out.println("center's x is: " + c1.getCenterX());
-        System.out.println("center's y is: " + c1.getCenterY());
-        c1.setCenterXY(31, 32);
-        System.out.println(c1);
-        System.out.println("center's x is: " + c1.getCenterXY()[0]);
-        System.out.println("center's y is: " + c1.getCenterXY()[1]);
-
-
-        System.out.printf("area is: %.2f%n", c1.getArea());
-        System.out.printf("circumference is: %.2f%n", c1.getCircumference());
-
-
-        System.out.printf("distance is: %.2f%n", c1.distance(c2));
-        System.out.printf("distance is: %.2f%n", c2.distance(c1));
     }
 }
+
