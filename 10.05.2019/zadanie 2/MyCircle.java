@@ -4,14 +4,10 @@ Adrian Szostak, s19777
 Damian Eggert, s19766
 */
 
-import static java.lang.Math.pow;
-import static java.lang.StrictMath.sqrt;
-
-
 public class MyCircle extends MyPoint {
 
-    protected MyPoint center;
-    protected int radius;
+    private MyPoint center;
+    private int radius;
 
     public MyCircle ()
     {
@@ -102,3 +98,4 @@ public class MyCircle extends MyPoint {
 
 
 }
+
