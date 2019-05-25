@@ -3,12 +3,9 @@ POJ, lab5, zadanie 2
 Adrian Szostak, s19777
 Damian Eggert, s19766
 */
-import static java.lang.Math.pow;
-import static java.lang.StrictMath.sqrt;
-
 public class MyPoint {
 
-    protected int x, y;
+    private int x, y;
 
     public MyPoint() {
         this.x = 0;
@@ -114,3 +111,4 @@ public class MyPoint {
         System.out.printf("distance is: %.2f%n", c2.distance(c1));
     }
 }
+
