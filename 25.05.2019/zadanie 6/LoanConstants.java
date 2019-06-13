@@ -1,3 +1,5 @@
+// Praca w parach: Rafał Sochacki s20047, Damian Egert s19766
+
 public interface LoanConstants {
 
     public static final int SHORT_TERM = 1; //1 year
