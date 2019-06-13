@@ -1,3 +1,9 @@
+// Praca w parach: Rafał Sochacki s20047, Damian Egert s19766
+
+/*
+Source: http://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html
+*/
+
 public class Main {
 
     public static void main(String[] args){
