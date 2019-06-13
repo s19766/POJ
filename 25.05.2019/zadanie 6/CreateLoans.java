@@ -1,3 +1,5 @@
+// Praca w parach: Rafał Sochacki s20047, Damian Egert s19766
+
 import java.util.*;
 
 class CreateLoans {
