@@ -1,3 +1,5 @@
+// Praca w parach: Rafał Sochacki s20047, Damian Egert s19766
+
 public class PersonalLoan extends Loan {
 
     PersonalLoan(String loanNum, String lastName, double loanAmount, int term, double primeIntRate) {
