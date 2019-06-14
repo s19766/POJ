@@ -1,12 +1,11 @@
-import java.util.ArrayList;
-
+// Praca w parach: Rafał Sochacki s20047, Damian Egert s19766
 public class ThrowUsedCarException {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UsedCarException{
+
+        UsedCar[] cars = new UsedCar[7];
 
         try{
-            UsedCar[] cars = new UsedCar[7];
-
             cars[0] = new UsedCar(1111, "Honda", 1997, 10000, 1000.00);
             cars[1] = new UsedCar(2222, "Ford", 1998, 20000, 2000.00);
             cars[2] = new UsedCar(3333, "Toyota", 1999, 30000, 3000.33);
@@ -15,12 +14,13 @@ public class ThrowUsedCarException {
             cars[5] = new UsedCar(6666, "Other", 2002, 60000, 6000.00);
             cars[6] = new UsedCar(7777, "Other", 2003, 70000, 7000.69);
 
-            for (int i = 0; i < cars.length; i++){
-                System.out.println(cars[i]);
+            if (cars != null){
+                System.out.println(cars.toString());
             }
         }
-        catch(UsedCarException error){
-            System.out.println(error.getMessage());
+
+        catch(UsedCarException e){
+            System.out.println(e.getMessage());
         }
     }
 
