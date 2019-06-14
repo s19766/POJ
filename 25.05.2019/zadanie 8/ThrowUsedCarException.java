@@ -1,4 +1,3 @@
-// Praca w parach: Rafał Sochacki s20047, Damian Egert s19766
 public class ThrowUsedCarException {
 
     public static void main(String[] args) throws UsedCarException{
@@ -14,9 +13,8 @@ public class ThrowUsedCarException {
             cars[5] = new UsedCar(6666, "Other", 2002, 60000, 6000.00);
             cars[6] = new UsedCar(7777, "Other", 2003, 70000, 7000.69);
 
-            if (cars != null){
-                System.out.println(cars.toString());
-            }
+            for(UsedCar c : cars)
+                System.out.println(c.toString());
         }
 
         catch(UsedCarException e){
